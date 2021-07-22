@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@font-face {
+    font-family: 'GardensC';
+    src: url('GardensC.woff2') format('woff2'),
+    url('GardensC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: 'GardensC', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.container{
+    max-width: 1162px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 69px;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+}
+.nav__item{
+    margin-left: 24px;
+}
+.nav__link{
+    text-decoration: none;
+}
