@@ -98,6 +98,7 @@ hr{
     background: url("../img/hero-round.png") no-repeat center;
     width: 556px;
     height: 556px;
+    margin-left: 30px;
 }
 .btn-full, .btn-white{
     padding: 4px 19px;
@@ -120,6 +121,7 @@ hr{
     border-radius: 125px;
     width: 890px;
     padding-top: 57px;
+    margin-bottom: 148px;
 }
 .about__text{
     display: flex;
@@ -167,4 +169,28 @@ hr{
 }
 .partner-extra__img{
     margin-right: 20px;
+}
+
+/* BLOGGER */
+
+.blogger__container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 155px;
+}
+.blogger__main{
+    width: 325px;
+    margin-left: 110px;
+}
+.blogger__title{
+    font-size: 39px;
+    line-height: 120%;
+    margin-bottom: 41px;
+}
+.blogger__text{
+    margin-bottom: 59px;
+}
+.connect-btn{
+    white-space: nowrap;
+    padding: 7px 59px;
 }
